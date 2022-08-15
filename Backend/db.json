@@ -1,0 +1,120 @@
+
+
+
+
+{
+      "category":[
+          {
+              "id": "1",
+              "Name":"Breakfast",
+              "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/american-style-pancakes-87119e3.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+        
+          },
+
+          {
+            "id": "2",
+            "Name":"Lunch",
+            "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/ratatouille-0fa482e.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+        
+        }, 
+        
+        {
+            "id": "3",
+            "Name":"Supper",
+            "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-3284_11-3bc7cf6.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+        
+        }, 
+        
+        {
+            "id": "4",
+            "Name":"Snacks",
+            "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/banana-muffins-943f3dc.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+       
+        },
+        
+        {
+            "id": "5",
+            "Name":"Drinks",
+            "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2021/03/jessica-rabbit-f053c39.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+        }
+        ],
+
+ 
+
+
+
+        "breakfast":[
+            {
+                "id":"1",
+                "name":"American pancakes",
+                "Description":"Easy, American-style, fluffy pancakes are great for feeding a crowd at breakfast or brunch. Top with something sweet like fruit, jam or syrup, or rashers of crispy bacon.",
+                "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/american-style-pancakes-87119e3.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+            },
+            {
+                "id":"2",
+                "name":"Eggy cheese crumpets",
+                "Description":"Swap your regular toast or sandwiches at lunch or breakfast time for these delicious eggy cheese crumpets. Enjoy with cherry tomatoes and sliced avocado.",
+                "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/eggy-cheese-crumpets-b4b6d4c.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+            }
+            
+        ],
+        "lunch":[
+            {
+                "id":"1",
+                "name":"Ratatouille",
+                "Description":"Enjoy this super-healthy traditional ratatouille recipe for lunch or dinner, safe in the knowledge that it counts as four of your five-a-day",
+                "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/ratatouille-0fa482e.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+            },
+            {
+                "id":"2",
+                "name":"Turkey tikka masala",
+                "Description":"Crave spice after the traditional Christmas lunch? Want to turn your leftover turkey into a whole new dish? This tasty turkey tikka masala is for you",
+                "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/11/Turkey-tikka-masala-baebbf2.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+            }
+        ],
+        "supper":[
+            {
+                "id":"1",
+                "name":"20-minute rice supper",
+                "Description":"Superhealthy - good source of omega-3s",
+                "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-3284_11-3bc7cf6.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+            },
+            {
+                "id":"2",
+                "name":"Dad's special supper",
+                "Description":"CA meaty and satisfying meal, perfect for Father's Day",
+                "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-2871_12-564d016.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+            }
+        ],
+        "snack":[
+            {
+                "id":"1",
+                "name":"Easy banana muffins",
+                "Description":"Make these moreish banana muffins for an easy breakfast or a snack on the go. They're also great for lunchboxes and will prove popular with the whole family.",
+                "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/banana-muffins-943f3dc.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+            },
+            {
+                "id":"2",
+                "name":"Homemade chicken nachos",
+                "Description":"A super-quick Mexican snack to enjoy with a Margarita or three",
+                "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-134476_12-ac4515f.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+            }
+        ],
+        "drinks":[
+            {
+                "id":"1",
+                "name":"Bicerin - coffee & chocolate drink",
+                "Description":"This is a luxurious coffee-and-chocolate drink topped with cream that originates from a cafe in Turin where it is a closely guarded secret",
+                "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1296_11-78475de.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+            },
+            {
+                "id":"2",
+                "name":"Jessica rabbit cocktail",
+                "Description":"Plenty of fresh ingredients lift this simple mezcal cocktail to create a sweet, light and wonderfully balanced drink",
+                "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2021/03/jessica-rabbit-f053c39.jpg?resize=960,872?quality=90&webp=true&resize=600,545"
+            }
+        ]
+
+        
+       
+  }

@@ -1,0 +1,15 @@
+<div class="flex justify-between mt-3">
+    <button class="btn btn-active bg-amber-800 ml-2">New Recipe</button>
+    <input type="text" placeholder="Search" class="input input-bordered bg-amber-800 mr-2" />
+  
+</div>
+<div class="flex justify-center" *ngFor="let snack of snack" >
+<div class="card card-side  shadow-xl mt-6 ">
+    <figure><img src="{{snack.imgUrl}}" alt="Movie" class="img "></figure>
+    <div class="card-body">
+        {{snack.name}}
+      <p>{{snack.Description}}</p>
+    
+    </div>
+  </div>
+</div>
