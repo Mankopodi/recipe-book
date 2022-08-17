@@ -1,0 +1,66 @@
+<!-- 
+    <label for="my-modal" class="btn modal-button bg-amber-800 ml-2">New Recipe</label>
+    <input type="text" placeholder="Search" class="input input-bordered bg-amber-800 mr-2" />
+  
+</div>
+<div>
+  <span>
+  
+  </span>
+</div>
+<div class="flex justify-center" *ngFor="let supper of supper" >
+<div class="card card-side  shadow-xl mt-6 ">
+    <figure><img src="{{supper.imgUrl}}" alt="Movie" class="img "></figure>
+    <div class="card-body">
+        <b>{{supper.name}}</b>
+      <i><p>{{supper.Description}}</p></i>
+      <div class="flex justify-end">
+        <button class="btn btn-outline btn-primary" >View Recipe</button>
+      </div>
+    </div>
+   
+  </div>
+
+</div>
+
+
+
+<input type="checkbox" id="my-modal" class="modal-toggle" />
+
+<div class="modal">
+  <div>
+  <div class="modal-box">
+
+   <div class="flex justify-end">
+
+  </div>
+
+    <div class="form-control w-full max-w-xs">
+      <label class="label">
+        <span class="label-text">Enter Meal Name</span>
+      </label>
+      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+    </div>
+
+    <div class="form-control w-full max-w-xs">
+      <label class="label">
+        <span class="label-text">Enter the description of the meal.</span>
+      </label>
+      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+    </div>
+
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlFile1"> Upload the Image </label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+    </form>
+    <div class="flex justify-end">
+
+    <input type="button" value="Save" class="btn mr-4 bg-green-600" (click)="onSubmit()"/>
+    <input type="button" value="Close" class="btn bg-error" />
+  </div>
+  </div>
+
+</div>
+</div> --> -->

@@ -1,0 +1,17 @@
+<div *ngFor="let meals of meals"class="flex justify-center mt-10">
+<div class="card w-96 bg-base-100 shadow-xl">
+    <figure class="px-10 pt-10">
+      <img src="{{meals.imgUrl}}" alt="Shoes" class="rounded-xl" />
+    </figure>
+    <div class="card-body ">
+      <h2 class="card-title">{{meals.name}}</h2>
+      <p>{{meals.Description}}</p>
+      <div class="flex flex-col w-full border-opacity-50">
+        <div class="grid h-10 card bg-base-300 rounded-box place-items-center  mb-1">Ingredients</div>
+        <textarea class="textarea textarea-primary mb-3" placeholder="{{meals.ingredients}}"></textarea>
+        <div class="grid h-10 card bg-base-300 rounded-box place-items-center mb-1">Directions</div>
+        <textarea class="textarea textarea-primary" placeholder="{{meals.directions}}"></textarea>
+      </div>
+    </div>
+  </div>
+</div>

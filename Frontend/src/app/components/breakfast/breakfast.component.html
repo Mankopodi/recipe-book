@@ -1,0 +1,72 @@
+<div class="flex justify-between mt-3">
+    <!-- <button class="btn btn-active bg-amber-800 ml-2" for="my-modal" class="btn modal-button"></button> -->
+    <label for="my-modal" class="btn modal-button bg-amber-800 ml-2">New Recipe</label>
+    <input type="text" placeholder="Search" class="input input-bordered bg-amber-800 mr-2" />
+  
+</div>
+<div>
+  <span>
+    <!-- <h2>{{}}</h2> -->
+  </span>
+</div>
+<div class="flex justify-center" *ngFor="let breakfast of breakfast" >
+<div class="card card-side  shadow-xl mt-6 ">
+    <figure><img src="{{breakfast.imgUrl}}" alt="Movie" class="img "></figure>
+    <div class="card-body">
+        <b>{{breakfast.name}}</b>
+      <i><p>{{breakfast.Description}}</p></i>
+      <div class="flex justify-end">
+        <button class="btn btn-outline btn-primary" >View Recipe</button>
+      </div>
+    </div>
+   
+  </div>
+
+</div>
+
+
+<!-- The button to open modal -->
+
+
+<!-- Put this part before </body> tag -->
+<input type="checkbox" id="my-modal" class="modal-toggle" />
+
+<div class="modal">
+  <div>
+  <div class="modal-box">
+
+   <div class="flex justify-end">
+  <!-- <button class="btn btn-square btn-outline h-3 w-4  ">
+      <svg  class="h-6 w-6 "  viewBox="0 0 24 24" stroke="currentColor"><path  d="M6 18L18 6M6 6l12 12" /></svg>
+    </button> -->
+  </div>
+
+    <div class="form-control w-full max-w-xs">
+      <label class="label">
+        <span class="label-text">Enter Meal Name</span>
+      </label>
+      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+    </div>
+
+    <div class="form-control w-full max-w-xs">
+      <label class="label">
+        <span class="label-text">Enter the description of the meal.</span>
+      </label>
+      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+    </div>
+
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlFile1"> Upload the Image </label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+    </form>
+    <div class="flex justify-end">
+
+    <input type="button" value="Save" class="btn mr-4 bg-green-600" (click)="onSubmit()"/>
+    <input type="button" value="Close" class="btn bg-error" />
+  </div>
+  </div>
+  <!-- <button class="btn btn-active bg-amber-800 ml-2" for="my-modal" class="btn modal-button"></button> -->
+</div>
+</div>

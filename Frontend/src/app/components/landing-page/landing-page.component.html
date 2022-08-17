@@ -1,20 +1,27 @@
 <div class="flex justify-end mt-3">
     <input type="text" placeholder="Search" class="input input-bordered mr-2" />
   </div>
-
 <div class="grid grid-cols-1 gap-4 md:grid-cols-3 mt-3">
-<div class="container" *ngFor="let category of category">
+<div *ngFor="let category of category">
+    <a routerLink="/view/{{category.id}}">
+<div class="container" >
 <div class="card w-50 bg-base-50 shadow-xl image-full mt-3 m-4 ">
-   
-    <img src="{{category.imgUrl}}" alt="Shoes" />
+    
+    
+
+
+    <img src="{{category.imgUrl}}" alt="Shoes" routerLink="/view/{{category.id}}" />
 
     <div class="card-body items-center text-center " >
         {{category.Name}}
     </div>
+    
 
   </div>
 </div>
+</a>
 </div>
+
 
 
 

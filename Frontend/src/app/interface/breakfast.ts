@@ -3,7 +3,8 @@
         id :number;
         name: string;
         Description: string;
-        imgUrl: string
+        imgUrl: string;
+        
     }
   
     
